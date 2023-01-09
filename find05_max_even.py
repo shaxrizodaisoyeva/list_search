@@ -14,6 +14,8 @@ def find_max_even(data):
         a+=1
         if data1:
             d=max(data1)
+        else:
+            d=-1
     return d
 data=[1,4,6,89,46,34,88,106,199,34,89]
 print(find_max_even(data))
