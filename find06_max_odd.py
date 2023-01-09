@@ -14,6 +14,8 @@ def find_max_odd(data):
         a+=1
         if data1:
             d=max(data1)
+        else:
+            d=-1
     return d
 data=[1,4,6,89,199,46,34,87,106,208]
 print(find_max_odd(data))
